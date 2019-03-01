@@ -19,3 +19,9 @@ describe('For testing the wrong Value', ()=> {
         assert.notEqual(fibonacci(4), 5);
     });
 });
+
+describe('For testing exception handling', ()=> {
+    it('Test f(-1) should be 0', ()=> {
+        assert.equal(fibonacci(-1), 0);
+    });
+});

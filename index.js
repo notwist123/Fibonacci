@@ -1,5 +1,7 @@
 var temp = [];
 function fibonacci(number) {
+    if (number < 0)
+        return 0;
     if (temp[number]) 
         return temp[number];
     if (number === 1 || number === 0)
