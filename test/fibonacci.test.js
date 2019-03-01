@@ -24,4 +24,7 @@ describe('For testing exception handling', ()=> {
     it('Test f(-1) should be 0', ()=> {
         assert.equal(fibonacci(-1), 0);
     });
+    it('Test f(null) should be 0', ()=> {
+        assert.equal(fibonacci(null), 0);
+    });
 });

@@ -1,6 +1,6 @@
 var temp = [];
 function fibonacci(number) {
-    if (number < 0)
+    if (typeof number !== 'number' || number < 0)
         return 0;
     if (temp[number]) 
         return temp[number];
